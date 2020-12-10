@@ -1,0 +1,11 @@
+{
+    "$HELLO_WORLD": "Ciao Mondo",
+
+    "$OPERA_NOVA": "Opera Nova",
+    "$SCUOLA_DI_HEMA": "Scuola di Arti Marziali Storiche Europee",
+
+    "$BRESCIA": "Brescia",
+    "$MILAN": "Milano",
+    "$TURIN": "Torino",
+    "$ROME": "Roma"
+}

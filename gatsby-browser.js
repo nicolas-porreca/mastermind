@@ -4,4 +4,15 @@
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+
+import { store, withStoreProvider } from './src/state/root';
+
+export const wrapRootElement = withStoreProvider;
+
+export const onClientEntry = () => {
+    setTimeout(() => {
+        store.dispatch({ type: 'loader/release' });
+    }, 5000);
+};
+
+
